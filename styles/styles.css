@@ -36,6 +36,10 @@ body {
   cursor: pointer;
 }
 
+.gallery-item img:hover {
+  transform: scale(1.5); 
+}
+
 .image-size {
   width: 200px;
   height: 150px;
@@ -68,6 +72,26 @@ body {
   max-width: 80%;
   max-height: 80%;
   display: block;
+}
+
+.lightbox .prev-arrow,
+.lightbox .next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lightbox .prev-arrow {
+  left: 10px;
+}
+
+.lightbox .next-arrow {
+  right: 10px;
 }
 
 .close-btn {
