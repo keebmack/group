@@ -17,7 +17,7 @@ $(document).ready(function() {
       lightbox.removeClass('show');
     }
   
-    $('.gallery-item img').on('click', function() {
+    $('.gallery-container').on('click', '.gallery-item img', function() {
       const index = $(this).data('index');
       openLightbox(index);
     });
@@ -30,4 +30,3 @@ $(document).ready(function() {
       event.stopPropagation();
     });
   });
-  
