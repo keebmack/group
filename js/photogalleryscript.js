@@ -7,6 +7,8 @@ $(document).ready(function() {
       'images/PPUcampus1.jpg',
       'images/PPUcampus2.jpg',
       'images/PPUcampus3.jpg',
+      'images/PPUcampus4.jpg',
+      'images/PPUcampus5.jpg',
     ];
   
     function openLightbox(index) {
