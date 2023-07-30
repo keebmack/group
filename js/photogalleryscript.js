@@ -1,4 +1,4 @@
-(function() {
+$(document).ready(function() {
     const lightbox = $('.lightbox');
     const lightboxImage = $('#lightbox-image');
   
@@ -17,7 +17,7 @@
       lightbox.removeClass('show');
     }
   
-    $('.gallery-container').on('click', '.gallery-item img', function() {
+    $(document).on('click', '.gallery-item img', function() {
       const index = $(this).data('index');
       openLightbox(index);
     });
@@ -29,4 +29,5 @@
     lightboxImage.on('click', function(event) {
       event.stopPropagation();
     });
-  })();
+  });
+  
