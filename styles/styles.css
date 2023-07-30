@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid yellow;
+    background-color: #f1f1f1;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: yellow;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h1, .content p, .content ul, .content table {
+    margin-bottom: 20px;
+}
+
+.bullet-point {
+    list-style-type: none;
+}
+
+.bullet-point li::before {
+    content: "• "; 
+    color: yellow; 
+    font-size: 1.5em; 
+}
+
+@keyframes clickAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.animateImage {
+    animation: clickAnimation 10s;
+}
+
+* {
+    color: yellow;
+    background-color: black;
+    text-align: center; 
+    padding: 5px; 
+    line-height: 1.5;
+}
