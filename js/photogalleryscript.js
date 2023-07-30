@@ -5,6 +5,8 @@ $(document).ready(function() {
     $('.gallery-item').on('click', function() {
       const images = [
         'images/PointParkPioneersLogo.png',
+        'images/PPUcampus1.jpg',
+        'images/PPUcampus2.jpg',
       ];
   
       const index = $(this).index();
