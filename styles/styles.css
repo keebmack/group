@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #167e29;
+}
+
 .gallery-item {
   display: inline-block;
   margin: 10px;
@@ -15,7 +23,7 @@
 }
 
 .gallery-item img:hover {
-  transform: scale(1.5); 
+  transform: scale(1.1); 
 }
 
 .container {
@@ -25,7 +33,7 @@
 
 .title-container {
   text-align: center;
-  border: 3px solid white;
+  border: 3px solid #167e29; 
   padding: 10px;
   margin: 20px 0;
   width: 100%;
@@ -34,6 +42,7 @@
 
 .title {
   margin: 0;
+  color: #167e29; 
 }
 
 .gallery-container {
