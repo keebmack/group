@@ -6,6 +6,7 @@ $(document).ready(function() {
       'images/PointParkPioneersLogo.png',
       'images/PPUcampus1.jpg',
       'images/PPUcampus2.jpg',
+      'images/PPUcampus3.jpg',
     ];
   
     function openLightbox(index) {
