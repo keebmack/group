@@ -4,10 +4,7 @@ $(document).ready(function() {
   
     $('.gallery-item').on('click', function() {
       const images = [
-        'C:\Users\ryank\Documents\test\group\images\PointParkPioneersLogo.png',
-        'path/to/image2.jpg',
-        'path/to/image3.jpg',
-        'path/to/image4.jpg',
+        '\images\pointparkuniversitylogo.png',
       ];
   
       const index = $(this).index();
@@ -17,5 +14,9 @@ $(document).ready(function() {
   
     lightbox.on('click', function() {
       lightbox.removeClass('show');
+    });
+    
+    lightboxImage.on('click', function(event) {
+      event.stopPropagation();
     });
   });
