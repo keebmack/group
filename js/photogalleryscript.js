@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(function() {
     const lightbox = $('.lightbox');
     const lightboxImage = $('#lightbox-image');
   
@@ -29,4 +29,4 @@ $(document).ready(function() {
     lightboxImage.on('click', function(event) {
       event.stopPropagation();
     });
-  });
+  })();
