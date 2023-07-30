@@ -4,7 +4,7 @@ $(document).ready(function() {
   
     $('.gallery-item').on('click', function() {
       const images = [
-        'PointParkPioneersLogo.png',
+        'images/PointParkPioneersLogo.png',
       ];
   
       const index = $(this).index();
