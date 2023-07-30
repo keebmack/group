@@ -3,7 +3,7 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="js/jquery-3.3.1.min_.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/photogalleryscript.js"></script>
 </head>
 <body>
@@ -11,15 +11,15 @@
 
   <div class="gallery-container">
     <div class="gallery-item" onclick="openLightbox(0)">
-      <img src="images/PointParkPioneersLogo.png"  class="image-size">
-      <img src="images/PPUcampus1.jpg"  class="image-size">
-      <img src="images/PPUcampus2.jpg"  class="image-size">
+      <img src="images/PointParkPioneersLogo.png" class="image-size" data-index="0">
+      <img src="images/PPUcampus1.jpg" class="image-size" data-index="1">
+      <img src="images/PPUcampus2.jpg" class="image-size" data-index="2">
     </div>
   </div>
 
   <div class="lightbox" onclick="closeLightbox()">
     <span class="close-btn" onclick="closeLightbox()">&times;</span>
-    <img id="lightbox-image" src="" alt="Lightbox Image">
+    <img id="lightbox-image" src="" alt="">
   </div>
 </body>
 </html>
