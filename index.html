@@ -8,22 +8,36 @@
 </head>
 <body>
   <div class="container">
-    <h1>Point Park University Photo Gallery</h1>
-  </div>  
+    <div class="title-container">
+      <h1 class="title">Point Park University Photo Gallery</h1>
+    </div>  
+  </div>
   <div class="gallery-container">
     <div class="gallery-item">
       <img src="images/PointParkPioneersLogo.png" class="image-size" data-index="0">
+    </div>
+    <div class="gallery-item">
       <img src="images/PPUcampus1.jpg" class="image-size" data-index="1">
+    </div>
+    <div class="gallery-item">
       <img src="images/PPUcampus2.jpg" class="image-size" data-index="2">
+    </div>
+    <div class="gallery-item">
       <img src="images/PPUcampus3.jpg" class="image-size" data-index="3">
+    </div>
+    <div class="gallery-item">
       <img src="images/PPUcampus4.jpg" class="image-size" data-index="4">
+    </div>
+    <div class="gallery-item">
       <img src="images/PPUcampus5.jpg" class="image-size" data-index="5">
     </div>
   </div>
-
+  
   <div class="lightbox" onclick="closeLightbox()">
-    <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    <span class="prev-arrow">&lt;</span>
     <img id="lightbox-image" src="" alt="">
+    <span class="next-arrow">&gt;</span>
+    <span class="close-btn" onclick="closeLightbox()">&times;</span>
   </div>
 </body>
 </html>
