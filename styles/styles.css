@@ -24,7 +24,7 @@ body {
 }
 
 .gallery-item img:hover {
-  transform: scale(1.5); 
+  transform: scaleX(1.5) scaleY(1.5); 
   object-fit: none;
 }
 
